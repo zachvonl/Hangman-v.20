@@ -1,4 +1,4 @@
-# Hangman HW
+# Hangman Version 2.0
 
 This is an upgraded Hangman game built with React. It tracks player win/loss stats and stores them in a MongoDB database using a Node.js/Express backend. The full app—including frontend, backend, and database—can be run using Docker Compose.
 
