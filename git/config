@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "Hangman"]
+	url = https://github.com/zachvonl/Hangman.git
+	fetch = +refs/heads/*:refs/remotes/Hangman/*
+[branch "main"]
+	remote = Hangman
+	merge = refs/heads/main
+	vscode-merge-base = Hangman/main
+	vscode-merge-base = Hangman/main
